@@ -70,11 +70,11 @@ My workflow follows a deliberate loop—**`read → learn → understand → com
 <!-- START_SECTION:activity -->
 ```text
 $ journalctl -u github@uvxv.service -n 5 --no-pager
-2026-11-25 09:19 UTC  [PUSH   ]  uvxv/KubeShoot              pushed updates -> main
-2026-11-24 11:45 UTC  [RELEASE]  uvxv/Encrypt                published release v2.0.0
+2026-11-25 09:19 UTC  [PUSH   ]  uvxv/KubeShoot              pushed updates -> master
 2026-11-24 11:43 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main
-2026-11-23 15:22 UTC  [RELEASE]  uvxv/Encrypt                published release v1.0.0
 2026-11-23 15:20 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main
+2026-11-24 11:45 UTC  [RELEASE]  uvxv/Encrypt                published release v2.0.0
+2026-11-23 15:22 UTC  [RELEASE]  uvxv/Encrypt                published release v1.0.0
 ```
 <!-- END_SECTION:activity -->
 
