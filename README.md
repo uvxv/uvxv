@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hud-banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/hud-banner-light.svg" />
-    <img alt="Imran Jinnah — DevOps & System Administration HUD" src="./assets/hud-banner-dark.svg" width="100%" />
+    <img alt="Imran Jinnah — DevOps & System Administration HUD" src="./assets/hud-banner-light.svg" width="100%" />
   </picture>
 
   <br />
@@ -34,14 +34,23 @@
 
 ---
 
+<!-- START_SECTION:activity -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg" />
+    <img alt="Recent GitHub Activity — journalctl -u github@uvxv.service" src="./assets/activity-dark.svg" width="100%" />
+  </picture>
+</div>
+<!-- END_SECTION:activity -->
+
+---
+
 ### `$ cat /etc/motd`
 
-I'm Imran Jinnah. I'm the kind of person who doesn't like leaving things unexplained. When something doesn't work, I want to know why. When something works, I want to understand how it was built.
-I enjoy digging into Linux, exploring system internals, debuging problems, and experimenting with tools and technologies. My interests are mainly around system administration, containerization, and Devops.
-I learn best by getting my hands dirty: experimenting, breaking things, troubleshooting, and documenting what I discover.
+I'm **Imran Jinnah**, a student based in **Sri Lanka** exploring **Linux system administration, containerization, and DevOps engineering**.
 
-*I am trying*
-
+My workflow follows a deliberate loop—**`read → learn → understand → commit`**. Rather than memorizing commands in isolation, I approach systems intuitively: breaking down how Linux internals, container runtimes, and Kubernetes clusters behave under the hood, documenting field notes along the way, and shipping practical utilities.
 
 ---
 
@@ -67,16 +76,4 @@ I learn best by getting my hands dirty: experimenting, breaking things, troubles
 | **[Encrypt](https://github.com/uvxv/Encrypt)** | `Python` · `Security` | Lightweight Python encryption tool with versioned releases. |
 
 ---
-
-### `$ journalctl -u github@uvxv.service`
-
-<!-- START_SECTION:activity -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg" />
-    <img alt="Recent GitHub Activity — journalctl -u github@uvxv.service" src="./assets/activity-dark.svg" width="100%" />
-  </picture>
-</div>
-<!-- END_SECTION:activity -->
 
