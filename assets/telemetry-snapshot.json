@@ -1,0 +1,33 @@
+{
+  "created_at": "2021-04-11T10:22:16Z",
+  "followers": 1,
+  "public_repos": 11,
+  "total_stars": 0,
+  "contributions_1y": 135,
+  "weekly_series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    14
+  ],
+  "latest_repo": "uvxv/KubeShoot",
+  "activity_lines": [
+    "2026-11-25 09:19 UTC  [PUSH   ]  uvxv/KubeShoot              pushed updates -> main",
+    "2026-11-24 11:45 UTC  [RELEASE]  uvxv/Encrypt                published release v2.0.0",
+    "2026-11-24 11:43 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main",
+    "2026-11-23 15:22 UTC  [RELEASE]  uvxv/Encrypt                published release v1.0.0",
+    "2026-11-23 15:20 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main"
+  ]
+}

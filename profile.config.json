@@ -1,0 +1,28 @@
+{
+  "username": "uvxv",
+  "display_name": "Imran Jinnah",
+  "role": "Student  ·  DevOps & System Administration",
+  "node_host": "uvxv@lk-cmb-01",
+  "os_label": "Linux // RHEL-x86_64",
+  "location": "Sri Lanka",
+  "timezone": "UTC+05:30",
+  "quote": "Approaching intuitively",
+  "linkedin_url": "https://www.linkedin.com/in/imranjinnah/",
+  "linkedin_handle": "imranjinnah",
+  "featured_url": "https://kubeshoot.vercel.app",
+  "stack_tags": [
+    { "label": "Linux / RHEL", "color": "#ef4444" },
+    { "label": "Docker", "color": "#38bdf8" },
+    { "label": "Kubernetes", "color": "#3b82f6" },
+    { "label": "Python", "color": "#eab308" },
+    { "label": "C", "color": "#a855f7" },
+    { "label": "Bash", "color": "#10b981" }
+  ],
+  "pipeline_stages": [
+    "read",
+    "learn",
+    "understand",
+    "commit"
+  ],
+  "max_activity_events": 5
+}

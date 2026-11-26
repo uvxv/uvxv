@@ -1,0 +1,49 @@
+name: Sync Profile Telemetry
+
+on:
+  schedule:
+    # Runs every 6 hours to refresh live GitHub telemetry SVGs & event logs
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "profile.config.json"
+      - "scripts/update_profile.py"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-telemetry:
+    name: Update HUD & Live Feeds
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch GitHub telemetry & regenerate SVGs + activity log
+        env:
+          # Optional: add a repository secret named PROFILE_TOKEN (classic/fine-grained PAT)
+          # if you also want private repository contributions included; otherwise GITHUB_TOKEN works automatically.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit and push updated telemetry assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg assets/telemetry-snapshot.json README.md
+          if git diff --cached --quiet; then
+            echo "No telemetry changes detected."
+          else
+            git commit -m "chore(telemetry): sync live github profile feeds [skip ci]"
+            git push
+          fi
