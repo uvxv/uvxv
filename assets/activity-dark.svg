@@ -60,7 +60,7 @@
 
     <!-- Window Title -->
     <text x="460" y="27" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">
-      <tspan fill="#2dd4bf" font-weight="700">&gt;_</tspan>  bash — uvxv@lk-cmb-01: ~ (journalctl)
+      <tspan fill="#2dd4bf" font-weight="700">&gt;_</tspan>  bash — uvxv@github: ~ (journalctl)
     </text>
 
     <!-- Systemd Unit Status Pill -->
@@ -71,9 +71,9 @@
 
     <!-- Executed Bash Command -->
     <text x="26" y="69" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
-      <tspan fill="#34d399" font-weight="700">uvxv@lk-cmb-01</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8" font-weight="700">~</tspan><tspan fill="#94a3b8">$ </tspan><tspan fill="#f8fafc" font-weight="700">journalctl</tspan><tspan fill="#94a3b8"> -u </tspan><tspan fill="#2dd4bf" font-weight="600">github@uvxv.service</tspan><tspan fill="#94a3b8"> -n 5 --no-pager</tspan>
+      <tspan fill="#34d399" font-weight="700">uvxv@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8" font-weight="700">~</tspan><tspan fill="#94a3b8">$ </tspan><tspan fill="#f8fafc" font-weight="700">journalctl</tspan><tspan fill="#94a3b8"> -u </tspan><tspan fill="#2dd4bf" font-weight="600">github@uvxv.service</tspan><tspan fill="#94a3b8"> -n 5 --no-pager</tspan>
     </text>
-    <text x="894" y="69" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">-- synced 2026-11-26 11:52 UTC --</text>
+    <text x="894" y="69" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">-- synced 2026-11-26 13:11 UTC --</text>
 
     <line x1="26" y1="83" x2="894" y2="83" stroke="#1e3a44" stroke-width="1" stroke-dasharray="3 4"/>
 
@@ -83,7 +83,7 @@
     <!-- Interactive Prompt & Pager Footer -->
     <line x1="26" y1="240" x2="894" y2="240" stroke="#1e3a44" stroke-opacity="0.65" stroke-width="1"/>
     <text x="26" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
-      <tspan fill="#34d399" font-weight="700">uvxv@lk-cmb-01</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8" font-weight="700">~</tspan><tspan fill="#94a3b8">$ </tspan><tspan fill="#2dd4bf" class="cursor">▋</tspan>
+      <tspan fill="#34d399" font-weight="700">uvxv@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8" font-weight="700">~</tspan><tspan fill="#94a3b8">$ </tspan><tspan fill="#2dd4bf" class="cursor">▋</tspan>
     </text>
     <text x="894" y="262" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">
       lines 1-5/5 (END)  ·  <tspan fill="#34d399" font-weight="700">exit 0</tspan>
