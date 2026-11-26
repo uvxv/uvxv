@@ -36,9 +36,12 @@
 
 ### `$ cat /etc/motd`
 
-I'm **Imran Jinnah**, a student based in **Sri Lanka** exploring **Linux system administration, containerization, and DevOps engineering**.
+I'm Imran Jinnah. I'm the kind of person who doesn't like leaving things unexplained. When something doesn't work, I want to know why. When something works, I want to understand how it was built.
+I enjoy digging into Linux, exploring system internals, debuging problems, and experimenting with tools and technologies. My interests are mainly around system administration, containerization, and Devops.
+I learn best by getting my hands dirty: experimenting, breaking things, troubleshooting, and documenting what I discover.
 
-My workflow follows a deliberate loop—**`read → learn → understand → commit`**. Rather than memorizing commands in isolation, I approach systems intuitively: breaking down how Linux internals, container runtimes, and Kubernetes clusters behave under the hood, documenting field notes along the way, and shipping practical utilities.
+*I am trying*
+
 
 ---
 
