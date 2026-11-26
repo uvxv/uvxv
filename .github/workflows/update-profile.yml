@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+      - master
     paths:
       - "profile.config.json"
       - "scripts/update_profile.py"
@@ -17,16 +18,16 @@ permissions:
   contents: write
 
 jobs:
-  sync-telemetry:
+  sync-telemetry: # job identifier
     name: Update HUD & Live Feeds
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # machine on which teh will run
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # action to run as a part of the job
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
-        with:
+        with: # map of input parameters for the action
           python-version: "3.12"
 
       - name: Fetch GitHub telemetry & regenerate SVGs + activity log
@@ -38,8 +39,8 @@ jobs:
 
       - name: Commit and push updated telemetry assets
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "git-action"
+          git config user.email "git-action@users.noreply.github.com"
           git add assets/*.svg assets/telemetry-snapshot.json README.md
           if git diff --cached --quiet; then
             echo "No telemetry changes detected."

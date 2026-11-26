@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="282" viewBox="0 0 920 282" role="img" aria-label="Bash terminal showing recent GitHub activity for @uvxv">
+  <title>journalctl -u github@uvxv.service — Recent GitHub Activity</title>
+  <desc>2026-11-25 13:58 UTC  [PUSH   ]  uvxv/KubeShoot              pushed updates -&gt; master | 2026-11-24 11:45 UTC  [RELEASE]  uvxv/Encrypt                published release v2.0.0 | 2026-11-24 11:43 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -&gt; main</desc>
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="52%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <radialGradient id="termGlow" cx="15%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#0f766e" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#050d11" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="termGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#2dd4bf" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="termClip">
+      <rect x="4" y="4" width="912" height="274" rx="14"/>
+    </clipPath>
+    <filter id="termShadow" x="-2%" y="-2%" width="104%" height="106%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.08"/></filter>
+  </defs>
+
+  <style>
+    .cursor {
+      animation: termBlink 1.15s steps(2, start) infinite;
+    }
+    .unit-pulse {
+      animation: unitPulse 2.6s ease-in-out infinite;
+    }
+    @keyframes termBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes unitPulse {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.95; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .unit-pulse { animation: none; }
+    }
+  </style>
+
+  <!-- Outer Terminal Window -->
+  <g filter="url(#termShadow)">
+    <rect x="4" y="4" width="912" height="274" rx="14" fill="url(#termBg)"/>
+  </g>
+
+  <g clip-path="url(#termClip)">
+    
+
+    <!-- Terminal Window Chrome / Title Bar -->
+    <rect x="4" y="4" width="912" height="38" fill="#e2e8f0" fill-opacity="0.92"/>
+    <rect x="4" y="42" width="912" height="1" fill="#cbd5e1"/>
+
+    <!-- Window Control Dots -->
+    <circle cx="24" cy="23" r="5.5" fill="#ef4444"/>
+    <circle cx="42" cy="23" r="5.5" fill="#f59e0b"/>
+    <circle cx="60" cy="23" r="5.5" fill="#10b981"/>
+
+    <!-- Window Title -->
+    <text x="460" y="27" text-anchor="middle" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">
+      <tspan fill="#0d9488" font-weight="700">&gt;_</tspan>  bash — uvxv@lk-cmb-01: ~ (journalctl)
+    </text>
+
+    <!-- Systemd Unit Status Pill -->
+    <rect x="752" y="12.5" width="146" height="21" rx="10.5" fill="#d1fae5" fill-opacity="0.9" stroke="#34d399" stroke-opacity="0.45" stroke-width="1"/>
+    <circle cx="767" cy="23" r="5.5" fill="#059669" fill-opacity="0.24" class="unit-pulse"/>
+    <circle cx="767" cy="23" r="2.8" fill="#059669"/>
+    <text x="777" y="26.8" fill="#065f46" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.2">active (running)</text>
+
+    <!-- Executed Bash Command -->
+    <text x="26" y="69" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
+      <tspan fill="#059669" font-weight="700">uvxv@lk-cmb-01</tspan><tspan fill="#475569">:</tspan><tspan fill="#0284c7" font-weight="700">~</tspan><tspan fill="#475569">$ </tspan><tspan fill="#0f172a" font-weight="700">journalctl</tspan><tspan fill="#475569"> -u </tspan><tspan fill="#0f766e" font-weight="600">github@uvxv.service</tspan><tspan fill="#475569"> -n 5 --no-pager</tspan>
+    </text>
+    <text x="894" y="69" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">-- synced 2026-11-26 11:52 UTC --</text>
+
+    <line x1="26" y1="83" x2="894" y2="83" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 4"/>
+
+    <!-- Journalctl Event Stream -->
+    <rect x="16" y="94" width="888" height="24" rx="5" fill="#e2e8f0" fill-opacity="0.5"/><g><text x="26" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.8"><tspan fill="#475569">2026-11-25 13:58</tspan><tspan fill="#64748b"> UTC</tspan></text><rect x="186" y="97" width="82" height="18" rx="4.5" fill="#e0f2fe" fill-opacity="1.0" stroke="#7dd3fc" stroke-opacity="0.95" stroke-width="1"/><text x="227" y="109.5" text-anchor="middle" fill="#0369a1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">[PUSH]</text><text x="284" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#64748b">uvxv/</tspan><tspan fill="#0f172a" font-weight="700">KubeShoot</tspan></text><text x="496" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#334155">pushed updates </tspan><tspan fill="#0d9488" font-weight="700">→ </tspan><tspan fill="#0f766e" font-weight="600">master</tspan></text></g><g><text x="26" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.8"><tspan fill="#475569">2026-11-24 11:45</tspan><tspan fill="#64748b"> UTC</tspan></text><rect x="186" y="125" width="82" height="18" rx="4.5" fill="#d1fae5" fill-opacity="1.0" stroke="#6ee7b7" stroke-opacity="0.95" stroke-width="1"/><text x="227" y="137.5" text-anchor="middle" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">[RELEASE]</text><text x="284" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#64748b">uvxv/</tspan><tspan fill="#0f172a" font-weight="700">Encrypt</tspan></text><text x="496" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#334155">published release </tspan><tspan fill="#047857" font-weight="700">v2.0.0</tspan></text></g><rect x="16" y="150" width="888" height="24" rx="5" fill="#e2e8f0" fill-opacity="0.5"/><g><text x="26" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.8"><tspan fill="#475569">2026-11-24 11:43</tspan><tspan fill="#64748b"> UTC</tspan></text><rect x="186" y="153" width="82" height="18" rx="4.5" fill="#e0f2fe" fill-opacity="1.0" stroke="#7dd3fc" stroke-opacity="0.95" stroke-width="1"/><text x="227" y="165.5" text-anchor="middle" fill="#0369a1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">[PUSH]</text><text x="284" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#64748b">uvxv/</tspan><tspan fill="#0f172a" font-weight="700">Encrypt</tspan></text><text x="496" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#334155">pushed updates </tspan><tspan fill="#0d9488" font-weight="700">→ </tspan><tspan fill="#0f766e" font-weight="600">main</tspan></text></g><g><text x="26" y="194" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.8"><tspan fill="#475569">2026-11-23 16:37</tspan><tspan fill="#64748b"> UTC</tspan></text><rect x="186" y="181" width="82" height="18" rx="4.5" fill="#e0f2fe" fill-opacity="1.0" stroke="#7dd3fc" stroke-opacity="0.95" stroke-width="1"/><text x="227" y="193.5" text-anchor="middle" fill="#0369a1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">[PUSH]</text><text x="284" y="194" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#64748b">uvxv/</tspan><tspan fill="#0f172a" font-weight="700">Encrypt</tspan></text><text x="496" y="194" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#334155">pushed updates </tspan><tspan fill="#0d9488" font-weight="700">→ </tspan><tspan fill="#0f766e" font-weight="600">main</tspan></text></g><rect x="16" y="206" width="888" height="24" rx="5" fill="#e2e8f0" fill-opacity="0.5"/><g><text x="26" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.8"><tspan fill="#475569">2026-11-23 15:22</tspan><tspan fill="#64748b"> UTC</tspan></text><rect x="186" y="209" width="82" height="18" rx="4.5" fill="#d1fae5" fill-opacity="1.0" stroke="#6ee7b7" stroke-opacity="0.95" stroke-width="1"/><text x="227" y="221.5" text-anchor="middle" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">[RELEASE]</text><text x="284" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#64748b">uvxv/</tspan><tspan fill="#0f172a" font-weight="700">Encrypt</tspan></text><text x="496" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#334155">published release </tspan><tspan fill="#047857" font-weight="700">v1.0.0</tspan></text></g>
+
+    <!-- Interactive Prompt & Pager Footer -->
+    <line x1="26" y1="240" x2="894" y2="240" stroke="#cbd5e1" stroke-opacity="0.65" stroke-width="1"/>
+    <text x="26" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
+      <tspan fill="#059669" font-weight="700">uvxv@lk-cmb-01</tspan><tspan fill="#475569">:</tspan><tspan fill="#0284c7" font-weight="700">~</tspan><tspan fill="#475569">$ </tspan><tspan fill="#0d9488" class="cursor">▋</tspan>
+    </text>
+    <text x="894" y="262" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">
+      lines 1-5/5 (END)  ·  <tspan fill="#059669" font-weight="700">exit 0</tspan>
+    </text>
+  </g>
+
+  <!-- Crisp Outer Terminal Border -->
+  <rect x="4" y="4" width="912" height="274" rx="14" fill="none" stroke="#cbd5e1" stroke-width="1.3"/>
+</svg>

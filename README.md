@@ -21,7 +21,7 @@
       <img src="https://img.shields.io/github/stars/uvxv?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&label=stars&labelColor=0f172a&color=10b981" alt="GitHub Stars" />
     </a>
     <a href="https://github.com/uvxv/uvxv/actions/workflows/update-profile.yml">
-      <img src="https://img.shields.io/github/actions/workflow/status/uvxv/uvxv/update-profile.yml?branch=main&style=flat-square&logo=githubactions&logoColor=5eead4&label=telemetry%20cron&labelColor=0f172a&color=059669" alt="Telemetry Sync Status" />
+      <img src="https://img.shields.io/github/actions/workflow/status/uvxv/uvxv/update-profile.yml?style=flat-square&logo=githubactions&logoColor=5eead4&label=telemetry%20cron&labelColor=0f172a&color=059669" alt="Telemetry Sync Status" />
     </a>
   </p>
 
@@ -58,8 +58,8 @@ My workflow follows a deliberate loop—**`read → learn → understand → com
 | Workload | Focus | Summary |
 | :--- | :--- | :--- |
 | **[KubeShoot](https://github.com/uvxv/KubeShoot)** | `Kubernetes` · `Diagnostics` | Interactive Kubernetes troubleshooting companion & live cluster reference ([kubeshoot.vercel.app](https://kubeshoot.vercel.app)). |
-| **[RHCSA-Notes](https://github.com/uvxv/RHCSA-Notes)** | `RHEL` · `SysAdmin` | Field notes and practical command references for Red Hat Certified System Administrator preparation. |
-| **[docker-notes](https://github.com/uvxv/docker-notes)** | `Containers` · `Security` | End-to-end Docker handbook covering architecture, Dockerfiles, Compose, security hardening, and performance. |
+| **[RHCSA-Notes](https://github.com/uvxv/RHCSA-Notes)** | `RHEL` · `SysAdmin` | Field notes and practical command references for Red Hat Certified System Administrator preparation (Learning). |
+| **[docker-notes](https://github.com/uvxv/docker-notes)** | `Containers` · `Security` | End-to-end Docker handbook covering architecture, Dockerfiles, Compose, security hardening, and performance (Learning). |
 | **[kubernetes-learning-path](https://github.com/uvxv/kubernetes-learning-path)** | `K8s` · `Architecture` | Structured roadmap for mastering Kubernetes cluster administration from foundational primitives upward. |
 | **[Encrypt](https://github.com/uvxv/Encrypt)** | `Python` · `Security` | Lightweight Python encryption tool with versioned releases. |
 
@@ -68,16 +68,12 @@ My workflow follows a deliberate loop—**`read → learn → understand → com
 ### `$ journalctl -u github@uvxv.service`
 
 <!-- START_SECTION:activity -->
-```text
-$ journalctl -u github@uvxv.service -n 5 --no-pager
-2026-11-25 09:19 UTC  [PUSH   ]  uvxv/KubeShoot              pushed updates -> master
-2026-11-24 11:43 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main
-2026-11-23 15:20 UTC  [PUSH   ]  uvxv/Encrypt                pushed updates -> main
-2026-11-24 11:45 UTC  [RELEASE]  uvxv/Encrypt                published release v2.0.0
-2026-11-23 15:22 UTC  [RELEASE]  uvxv/Encrypt                published release v1.0.0
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg" />
+    <img alt="Recent GitHub Activity — journalctl -u github@uvxv.service" src="./assets/activity-dark.svg" width="100%" />
+  </picture>
+</div>
 <!-- END_SECTION:activity -->
 
-<div align="center">
-  <sub>Telemetry HUD &amp; event stream automatically refreshed every 6h via <a href="./.github/workflows/update-profile.yml">GitHub Actions</a> · <a href="https://www.linkedin.com/in/imranjinnah/">LinkedIn</a> · <a href="https://github.com/uvxv">GitHub</a></sub>
-</div>
