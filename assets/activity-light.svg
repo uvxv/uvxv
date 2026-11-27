@@ -73,7 +73,7 @@
     <text x="26" y="69" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
       <tspan fill="#059669" font-weight="700">uvxv@github</tspan><tspan fill="#475569">:</tspan><tspan fill="#0284c7" font-weight="700">~</tspan><tspan fill="#475569">$ </tspan><tspan fill="#0f172a" font-weight="700">journalctl</tspan><tspan fill="#475569"> -u </tspan><tspan fill="#0f766e" font-weight="600">github@uvxv.service</tspan><tspan fill="#475569"> -n 5 --no-pager</tspan>
     </text>
-    <text x="894" y="69" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">-- synced 2026-11-27 05:55 UTC --</text>
+    <text x="894" y="69" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.8">-- synced 2026-11-27 15:56 UTC --</text>
 
     <line x1="26" y1="83" x2="894" y2="83" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 4"/>
 
