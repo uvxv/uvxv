@@ -97,7 +97,7 @@
     <!-- Live Sync Pill -->
     <rect x="640" y="22" width="252" height="22" rx="11" fill="#062825" fill-opacity="0.85" stroke="#10b981" stroke-opacity="0.42" stroke-width="1"/>
     <circle cx="655" cy="33" r="2.8" fill="#34d399"/>
-    <text x="665" y="36.8" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.2" font-weight="600" letter-spacing="0.2">LIVE SYNC · 2026-11-27 15:56 UTC</text>
+    <text x="665" y="36.8" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.2" font-weight="600" letter-spacing="0.2">LIVE SYNC · 2026-11-28 00:52 UTC</text>
 
     <!-- Left Console Column: Identity & Toolchain -->
     <text x="36" y="82" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
